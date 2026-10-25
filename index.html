@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sayan Majhi's student portfolio: software projects, research, and technical skills.">
+  <title>Sayan Majhi | Student Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Sayan Majhi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section text-center">
+      <div class="container">
+        <p class="eyebrow">Computer Science Student · IIIT Nagpur</p>
+        <h1>Sayan Majhi</h1>
+        <p class="lead">I build backend systems and explore machine learning.</p>
+        <a class="btn btn-primary" href="#projects">Explore my work</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-padding">
+      <div class="container narrow-container">
+        <h2>About Me</h2>
+        <p>I am a Computer Science and Engineering student at the Indian Institute of Information Technology, Nagpur, working toward my B.Tech degree in 2028. I enjoy building backend software, learning about cloud and DevOps tools, and applying machine learning to real-world problems.</p>
+        <p>I have also worked on research projects in healthcare and presented published research with my co-authors.</p>
+        <div class="info-card">
+          <strong>Education</strong>
+          <p class="mb-0">B.Tech in Computer Science and Engineering<br>Indian Institute of Information Technology, Nagpur · Expected 2028<br>CGPA: 7.4/10 through Semester IV</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-padding section-muted">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4"><div class="info-card h-100"><h3 class="h5">Programming</h3><p class="mb-0">Java, Python, C++, SQL</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="info-card h-100"><h3 class="h5">Backend</h3><p class="mb-0">FastAPI, REST APIs</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="info-card h-100"><h3 class="h5">Tools</h3><p class="mb-0">Docker, Kubernetes, Git, GitHub</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="info-card h-100"><h3 class="h5">Data and ML</h3><p class="mb-0">NumPy, Pandas, scikit-learn</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="info-card h-100"><h3 class="h5">Computer Science</h3><p class="mb-0">Data structures and algorithms, OOP, DBMS, computer networks</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="row g-3">
+          <div class="col-lg-8">
+            <article class="card h-100">
+              <div class="card-body">
+                <p class="card-label">Hackathon project · Team lead</p>
+                <h3 class="h4 card-title">IncidentPilot</h3>
+                <p class="card-text">An agentic AI incident-response system. I led backend development and deployment using Python, FastAPI, Docker, and Kubernetes while my teammates built the frontend.</p>
+                <ul class="mb-0">
+                  <li>Built REST APIs for service settings, system status, telemetry, failure simulation, incident runs, and reset.</li>
+                  <li>Designed a recovery process that checks proposed actions against safety rules and verifies recovery with new telemetry.</li>
+                  <li>Organized the system into modules for incident agents, infrastructure simulation, safety checks, and recovery verification.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4">
+            <article class="card h-100">
+              <div class="card-body">
+                <p class="card-label">Research project</p>
+                <h3 class="h4 card-title">Cardiac Disease Prediction</h3>
+                <p class="card-text">Co-authored a machine-learning pipeline using a dataset of more than 300,000 health records. Compared several classification models, including Logistic Regression, Random Forest, SVM, KNN, and AdaBoost.</p>
+                <p class="mb-0">Presented at SocProS 2025, IIT Roorkee; published by Springer Nature.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section-padding section-muted">
+      <div class="container narrow-container">
+        <h2>Research Experience</h2>
+        <article class="info-card">
+          <p class="card-label">May 2025 – July 2025</p>
+          <h3 class="h5">Research Intern · IIIT Nagpur</h3>
+          <p>Worked with the Department of Computer Science and Engineering on deep-learning methods for skin-cancer type detection. Prepared data, ran experiments with CNNs and GAN-based data generation, and compared MobileNetV2, DenseNet121, and ResNet50 using classification and ROC-based measures.</p>
+          <p class="mb-0">Publication: <a href="https://doi.org/10.1007/978-981-95-4831-6_22" target="_blank" rel="noopener noreferrer">Advanced Machine Learning Framework for Early Detection of Cardiac Disease (DOI)</a></p>
+        </article>
+        <article class="info-card mt-3">
+          <h3 class="h5">Problem Solving</h3>
+          <p class="mb-0">LeetCode contest rating: 1711. I practise problems in graphs, dynamic programming, greedy algorithms, binary search, heaps, and other topics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+      <div class="container narrow-container">
+        <h2>Contact</h2>
+        <p>If you would like to discuss my projects or research, email me:</p>
+        <a class="btn btn-primary" href="mailto:sayanmajhi05@gmail.com">sayanmajhi05@gmail.com</a>
+        <p class="small text-muted mt-3">Add your LinkedIn, GitHub, and LeetCode profile links here when you have their URLs ready.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-3 text-center bg-dark text-white">
+    <p class="mb-0">&copy; <span id="year"></span> Sayan Majhi</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
